@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://www.1001fonts.com/arcadeclassic-font.html">
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -13,6 +14,7 @@
         <link rel="stylesheet" href="./assets/style.css" />
         <title>Game Getters</title>
     </head>
+
     <body>
         <section class="showcase">
             <header>
@@ -33,20 +35,14 @@
             <div class="text">
                 <h2>Never Stop</h2>
                 <h3>Late Night Gaming</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Consequatur, at repellendus amet nihil porro neque cum unde
-                    natus beatae saepe adipisci, quo fugiat quos ut voluptas
-                    atque reiciendis harum quibusdam!
-                </p>
             </div>
 
             <ul class="social">
-                <li>Diego Vargas <a href=""><img src="assets/images/github.png" alt="" /></a></li>
-                <li>Kristofer Marshall <a href="https://github.com/RflctnOfU"><img src="assets/images/github.png" alt="" /></a></li>
-                <li>Steven Bolcar <a href="https://github.com/StevenBolc?tab=repositories"><img src="assets/images/github.png" alt="" /></a></li>
-                <li>Tyler Evans <a href="https://github.com/TDEvans97"><img src="assets/images/github.png" alt="" /></a></li>
-                <li>Zachary Maddox <a href="https://github.com/Zachary-Maddox"><img src="assets/images/github.png" alt="" /></a></li>
+                <li>Diego Vargas <a href=""><img src="assets/images/blue-github.png" alt=" blue github logo " /></a></li>
+                <li>Kristofer Marshall <a href="https://github.com/RflctnOfU"><img src="assets/images/green-github.png" alt=" green github logo" /></a></li>
+                <li>Steven Bolcar <a href="https://github.com/StevenBolc?tab=repositories"><img src="assets/images/red-github.jpg" alt="red github logo" /></a></li>
+                <li>Tyler Evans <a href="https://github.com/TDEvans97"><img src="assets/images/gold-github.png" alt="gold github logo" /></a></li>
+                <li>Zachary Maddox <a href="https://github.com/Zachary-Maddox"><img src="assets/images/purple-github.png" alt="purple github logo" /></a></li>
             </ul>
         </section>
 
@@ -64,5 +60,14 @@
             integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
             crossorigin="anonymous"
         ></script>
+        <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+          menuToggle.classList.toggle('active')
+          showcase.classList.toggle('active')
+        })
+        </script>
     </body>
 </html>
