@@ -1,0 +1,36 @@
+@font-face {
+  font-family: arcade-classic;
+  src: url("/assets/font/ARCADECLASSIC.TTF");
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arcade-classic;
+    background-color: black;
+}
+
+
+.social {
+  position: absolute;
+  bottom: 20px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: center;
+}
+
+.social div a img {
+  display: inline-block;
+  width: 50%;
+  margin-right: 20px;
+  transition: 0.5s;
+}
+
+.social div a img:hover {
+  transform: scale(1.1) translateY(-15px);
+}
