@@ -3,12 +3,29 @@
   src: url("/assets/font/ARCADECLASSIC.TTF");
 }
 
+:root {
+  --yellow: rgba(252, 219, 2);
+  --pink: rgb(255, 0, 230);
+  --purple: rgba(102, 2, 252);
+  --darkblue:rgb(3, 27, 248);
+  --lightblue:rgb(3, 249, 232);
+  --white:rgb(255, 255, 255);
+  --limegreen: rgb(114, 253, 1);
+  --darkgreen: rgb(3, 42, 0);
+  --enginered: rgb(255, 1, 1);
+  --brickred: rgb(74, 3, 3);
+  --highlighter:rgb(246, 254, 0);
+  --mustard: rgb(243, 198, 0);
+  --royalpurple:rgb(38, 4, 69);
+}
+
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: arcade-classic;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 
@@ -29,6 +46,63 @@
   width: 50%;
   margin-right: 20px;
   transition: 0.5s;
+  /* border-radius: 10px;
+  box-shadow: -6px -6px 6px var(--yellow),
+  -8px -8px 8px var(--pink), 
+  -10px -10px 10px var(--purple), 
+  6px 6px 6px var(--yellow),
+  8px 8px 8px var(--purple),
+  10px 10px 10px var(--pink); */
+}
+
+.social div a img.diego{
+  border-radius: 10px;
+  box-shadow: -4px -4px 4px var(--white),
+  -6px -6px 6px var(--lightblue), 
+  -8px -8px 8px var(--darkblue), 
+  4px 4px 4px var(--white),
+  6px 6px 6px var(--lightblue),
+  8px 8px 8px var(--darkblue); 
+}
+
+.social div a img.kristofer{
+  border-radius: 10px;
+  box-shadow: -4px -4px 4px var(--white),
+  -6px -6px 6px var(--limegreen), 
+  -8px -8px 8px var(--darkgreen), 
+  4px 4px 4px var(--white),
+  6px 6px 6px var(--limegreen),
+  8px 8px 8px var(--darkgreen); 
+}
+
+.social div a img.steven{
+  border-radius: 10px;
+  box-shadow: -4px -4px 4px var(--white),
+  -6px -6px 6px var(--enginered), 
+  -8px -8px 8px var(--brickred), 
+  4px 4px 4px var(--white),
+  6px 6px 6px var(--enginered),
+  8px 8px 8px var(--brickred); 
+}
+
+.social div a img.tyler{
+  border-radius: 10px;
+  box-shadow: -4px -4px 4px var(--white),
+  -6px -6px 6px var(--highlighter), 
+  -8px -8px 8px var(--mustard), 
+  4px 4px 4px var(--white),
+  6px 6px 6px var(--highlighter),
+  8px 8px 8px var(--mustard); 
+}
+
+.social div a img.zachary{
+  border-radius: 10px;
+  box-shadow: -4px -4px 4px var(--white),
+  -6px -6px 6px var(--purple), 
+  -8px -8px 8px var(--royalpurple), 
+  4px 4px 4px var(--white),
+  6px 6px 6px var(--purple),
+  8px 8px 8px var(--royalpurple); 
 }
 
 .social div a img:hover {
