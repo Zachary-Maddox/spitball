@@ -28,7 +28,30 @@
     background-color: rgb(0, 0, 0);
 }
 
+.vargas{
+  color: var(--lightblue);
+  text-shadow: 0 0 5px var(--white);
+}
 
+.marshall{
+  color: var(--limegreen);
+  text-shadow: 0 0 5px var(--white);
+}
+
+.bolcar{
+  color: var(--enginered);
+  text-shadow: 0 0 5px var(--white);
+}
+
+.evans{
+  color: var(--mustard);
+  text-shadow: 0 0 5px var(--white);
+}
+
+.maddox{
+  color: var(--purple);
+  text-shadow: 0 0 4px var(--white);
+}
 .social {
   position: absolute;
   bottom: 20px;
@@ -46,13 +69,6 @@
   width: 50%;
   margin-right: 20px;
   transition: 0.5s;
-  /* border-radius: 10px;
-  box-shadow: -6px -6px 6px var(--yellow),
-  -8px -8px 8px var(--pink), 
-  -10px -10px 10px var(--purple), 
-  6px 6px 6px var(--yellow),
-  8px 8px 8px var(--purple),
-  10px 10px 10px var(--pink); */
 }
 
 .social div a img.diego{
