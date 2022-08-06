@@ -29,19 +29,35 @@
     background-color: rgb(0, 0, 0);
 }
 
+body{
+  position: relative;
+}
+
 .contactForm{
   display: block;
   justify-content: center;
   align-items: center;
   min-height: 60vh;
-  
+}
+.contactForm button{
+  margin-top: 2rem;
+  background-color: var(--orange);
+  color: var(--white);
+  box-shadow: 0 0 10px var(--limegreen);
+}
+.contactForm input{
+  box-shadow: 0 0 10px var(--limegreen);
+}
+.contactForm textarea{
+  box-shadow: 0 0 10px var(--limegreen);
 }
 
-.body{
+.logoPreview{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+padding-top: 2rem;
+padding-bottom: 2rem;
 }
 
 h1{
@@ -101,10 +117,8 @@ h1::before{
   color: var(--purple);
   text-shadow: 0 0 4px var(--white);
 }
+
 .social {
-  position: absolute;
-  bottom: 20px;
-  z-index: 10;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,4 +186,10 @@ h1::before{
 
 .social div a img:hover {
   transform: scale(1.1) translateY(-15px);
+}
+
+footer{
+  position: absolute;
+  bottom: 20px;
+  left: 0;
 }
