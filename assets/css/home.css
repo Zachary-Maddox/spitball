@@ -40,6 +40,14 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.showcase form{
+width: 50vh;
+
+}
+   
+
+
 .logo {
     text-transform: uppercase;
     cursor: pointer;
