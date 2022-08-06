@@ -93,7 +93,7 @@ h1::before{
   }
 }
 
-.vargas{
+.bolcar{
   color: var(--lightblue);
   text-shadow: 0 0 5px var(--white);
 }
@@ -103,7 +103,7 @@ h1::before{
   text-shadow: 0 0 5px var(--white);
 }
 
-.bolcar{
+.vargas{
   color: var(--enginered);
   text-shadow: 0 0 5px var(--white);
 }
@@ -134,7 +134,7 @@ h1::before{
   transition: 0.5s;
 }
 
-.social div a img.diego{
+.social div a img.steven{
   border-radius: 10px;
   box-shadow: -4px -4px 4px var(--white),
   -6px -6px 6px var(--lightblue), 
@@ -154,7 +154,7 @@ h1::before{
   8px 8px 8px var(--darkgreen); 
 }
 
-.social div a img.steven{
+.social div a img.diego{
   border-radius: 10px;
   box-shadow: -4px -4px 4px var(--white),
   -6px -6px 6px var(--enginered), 
