@@ -18,6 +18,9 @@
   --mustard: rgb(243, 198, 0);
   --royalpurple:rgb(38, 4, 69);
   --orange:rgb(255, 123, 0);
+  --black: rgb(0, 0, 0);
+  --grey: rgb(57, 57, 57);
+  --brightpurple:rgb(166, 0, 255);
 }
 
 
@@ -63,9 +66,9 @@ padding-bottom: 2rem;
 h1{
   position: relative;
   font-size:14vw;
-  color:var(--orange);
-  text-shadow:0 0 5px var(--limegreen);
-  -webkit-text-stroke: 0.3vw var(--white);
+  color:var(--black);
+  text-shadow:0 0 15px var(--pink);
+  -webkit-text-stroke: 0.2vw var(--black);
   text-transform: uppercase;
 }
 
@@ -76,9 +79,9 @@ h1::before{
   left: 0;
   width: 0;
   height: 100%;
-  color: var(--royalpurple);
-  -webkit-text-stroke: 0vw var(--orange);
-  border-right: 2px solid var(--royalpurple);
+  color: var(--orange);
+  -webkit-text-stroke: 0.3vw var(--highlighter);
+  border-right: 2px solid var(--limegreen);
   overflow: hidden;
   animation: animate 6s linear infinite;
 }
