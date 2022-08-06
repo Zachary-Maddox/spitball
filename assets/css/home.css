@@ -10,6 +10,10 @@
     font-family: arcade-classic;
 }
 
+.showcase form{
+    width: 50vh;
+    }
+
 .showcase {
     position: absolute;
     right: 0;
@@ -40,13 +44,6 @@
     align-items: center;
     justify-content: space-between;
 }
-
-.showcase form{
-width: 50vh;
-
-}
-   
-
 
 .logo {
     text-transform: uppercase;
